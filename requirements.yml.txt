@@ -1,0 +1,14 @@
+name: hive_env
+channels:
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - pip : 
+      - hiveengine
+      - matplotlib
+      - mplfinance
+      - pycoingecko
+ 
